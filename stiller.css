@@ -1,0 +1,21 @@
+.resim-ozellik
+{
+    width: 94%;
+    height: 550px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 15px;
+}
+
+.divrigi-ulu-camii-baslik{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.divrigi-ulu-camii-metin{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 5px;
+    text-indent: 25px;
+}
