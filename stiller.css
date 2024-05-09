@@ -20,6 +20,46 @@
     text-indent: 25px;
 }
 
+.sivas-baslik{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
 
+.sivas-metin{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-indent: 25px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 5px;
+}
 
+.slider-duzen{
+    margin-top: 15px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#carouselExampleIndicators {
+    height: 100vh;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sehrim-metin-duzen{
+    margin-left: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-indent: 25px;
+}
+
+#bolum-buruciye{
+    background-color: beige;
+}
+
+#bolum-gokpinar{
+    background-color: antiquewhite;
+}
 
