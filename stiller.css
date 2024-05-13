@@ -79,3 +79,34 @@
     text-align: center;
     background-color: #4b4d4c;
 }
+
+#bolum-ilkSutun{
+    background-color: coral;
+}
+
+#bolum-ikinciSutun{
+    background-color: rgb(121, 46, 84);
+}
+
+#bolum-ucuncuSutun{
+    background-color: rgb(167, 140, 104);
+}
+
+#bolum-sutunlar{
+    height: 30vh;
+    margin-right: 5px;
+}
+
+#bolum-ilkSutun2{
+    background-color: rgb(77, 86, 135);
+}
+
+#bolum-ikinciSutun2{
+    background-color: rgb(123, 133, 91);
+}
+
+#bolum-sutunlar2{
+    height: 70vh;
+    margin-right: 5px;
+    margin-bottom: 30px;
+}
