@@ -80,33 +80,35 @@
     background-color: #4b4d4c;
 }
 
-#bolum-ilkSutun{
-    background-color: coral;
-}
-
-#bolum-ikinciSutun{
-    background-color: rgb(121, 46, 84);
-}
-
-#bolum-ucuncuSutun{
-    background-color: rgb(167, 140, 104);
-}
-
-#bolum-sutunlar{
+header{
     height: 30vh;
-    margin-right: 5px;
+    background-color: antiquewhite;
+    text-align: center;
+
 }
 
-#bolum-ilkSutun2{
-    background-color: rgb(77, 86, 135);
-}
-
-#bolum-ikinciSutun2{
-    background-color: rgb(123, 133, 91);
-}
-
-#bolum-sutunlar2{
+.content{
+    display: flex;
     height: 70vh;
-    margin-right: 5px;
-    margin-bottom: 30px;
+}
+
+section{
+    flex: 1;
+    background-color: rgb(199, 179, 179);
+}
+
+aside{
+    flex: 1;
+    background-color: beige;
+}
+
+#duzenleme-tablo1{
+    display: inline-block;
+    margin-right: 25% ;
+
+}
+
+#duzenleme-tablo2{
+    display: inline-block;
+    margin-left: 75%;
 }
