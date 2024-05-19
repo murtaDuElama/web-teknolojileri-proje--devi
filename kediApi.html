@@ -10,8 +10,11 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-    <title>ÖZGEÇMİŞ</title>
+    <title>KEDİ</title>
 
+    <style>
+
+    </style>
 </head>
 
 <body>
@@ -45,55 +48,14 @@
         </div>
     </nav>
 
-    <div class="row">
-        <div class="col-lg-4" id="ilk-sutun">
-            <ul>
-                <li><h4><a href="#">mustafaates28gmail.com</a></h4></li>
-                <li><h4><a href="#">github</a></h4></li>
-                <li><h4><a href="#">linkedin</a></h4></li>
-            </ul>
-        </div>
 
-        <div class="col-lg-4" id="ikinci-sutun">
-            <img src="resimler/ben-1.jpg" alt="...">
-        </div>
-
-        <div class="col-lg-4" id="ucuncu-sutun">
-            <ul>
-                <li><h4>MUSTAFA ATEŞ</h4></li>
-                <li><h4>BİLGİSAYAR MÜH.</h4></li>
-                <li><h4>05383804658</h4></li>
-            </ul>
-        </div>
+    <div class="apiKedi">
+        <h1>Rastgele Kedi Resmi</h1>
+        <button onclick="getRandomCat()">Kedi Resmi Getir</button>
+        <div id="catImage"></div>
     </div>
 
-    <div class="row">
-        <div class="col-lg-6" id="dorduncu-sutun">
-            <h2>ÖĞRENİM GÖRDÜĞÜM OKULLAR</h2>
-            <ul>
-                <li><h5>AYVALI ŞEHİT İSRAFİL KARGI İLK/ORTAOKULU 2010-2017</h5></li>
-                <li><h5>GÜRÜN İSMET YILMAZ İMAM HATİP ORTAOKULU 2017-2018</h5></li>
-                <li><h5>AYVALI ŞEHİT İSRAFİL KARGI İLK/ORTAOKULU 2018-2019</h5></li>
-                <li><h5>ŞARKIŞLA İSMET YILMAZ FEN LİSESİ 2019-2023</h5></li>
-                <li><h5>AÇIK ÖĞRETİM LİSESİ 2023-2023</h5></li>
-                <li><h5>SAKARYA ÜNİVERSİTESİ 2023-...</h5></li>
-
-            </ul>
-        </div>
-        
-        <div class="col-lg-6" id="besinci-sutun">
-            <h2>ÖĞRENİM HAYATIM</h2>
-            <h6>
-                Anasınıfından başlayarak ilkokulu köyümüzde bulunan okulda bitirdim.
-                7.sınıf hariç ortaokulu da köyümüzde bulunan okulda bitirdim.
-                Liseyi ise Sivas'ın Şarkışla ilçesinde okudum.
-                Son dönem açık öğretim lisesine geçerek mezun oldum.
-                Şu an ise Sakarya Üniversitesi bilgisayar müh. bölümünde okumaktayım.
-            </h6>
-        </div>
-    </div>
-   
-
+    <script src="kediApi.js"></script>
 </body>
 
 </html>
